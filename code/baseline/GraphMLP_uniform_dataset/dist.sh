@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0,1 python -um torch.distributed.launch --nproc_per_node=2 main.py --frames 27
